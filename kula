@@ -2,8 +2,8 @@
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
-local idleanim = game:GetObjects("rbxassetid://507766388")[1]
-local walkanim = game:GetObjects("rbxassetid://507767714")[1]
+local idleanim = game:GetObjects("rbxassetid://180435571")[1]
+local walkanim = game:GetObjects("rbxassetid://180426354")[1]
 local randompart = Instance.new("Part",game:GetService("RunService"))
 local coolparticles = game:GetObjects("rbxassetid://87299663038091")[1].ParticleAttachment
 coolparticles.Parent = randompart
